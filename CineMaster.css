@@ -1,0 +1,112 @@
+/*BODY*/
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+}
+
+/*HEADER*/
+header{
+    display: flex;
+    font-size: 20px;
+    background-color: darkred;
+    padding-left: 20px;
+    min-width: 1875px;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    padding: 0;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+header ul li a:hover{
+    color: lightgray;
+}
+
+/*FOOTER*/
+footer{
+    display: flex;
+    font-size: 20px;
+    padding-left: 20px;
+    min-width: 1875px;
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    padding: 0;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: darkred;
+}
+
+footer ul li a:hover{
+    color: red;
+}
+
+.noenllaç{
+    text-decoration: none;
+    color: white;
+    cursor: auto;
+}
+
+/*GENERAL*/
+ul li{
+    cursor: pointer;
+}
+
+main{
+    padding: 20px;
+}
+
+main ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    padding: 0;
+}
+
+main img{
+    width: 150px;
+    height: 220px;
+    transition: 0.4s ease-in-out;
+}
+
+main img:hover{
+    transform: scale(1.2);
+}
+
+.generes img{
+    width: 60px;
+    height: 60px;
+}
+
+.generes img:hover{
+    rotate: 25deg;
+}
+
+.genere h2{
+    float: left;
+}
+
+.genere img{
+    padding-top: 6px;
+    width: 50px;
+    height: 50px;
+}
+
+.genere img:hover{
+    rotate: 0deg;
+    transform: none;
+}
